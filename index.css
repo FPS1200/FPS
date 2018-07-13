@@ -1,0 +1,7 @@
+.imagens img {
+    max-width: 100%;
+}
+
+img.selecionada {
+    border: solid 2px greenyellow;
+}
