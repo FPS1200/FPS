@@ -5,3 +5,19 @@
 img.selecionada {
     border: solid 2px greenyellow;
 }
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    display: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+footer >
+
+
+}
