@@ -50,6 +50,9 @@ Criar um Array: let array = []
 + uni duas strings
 
 
+(This): esta função/se refere ao contexto da função
+
+tolocaleLowerCase - deixa o texto todo em minusculo
 
 
 

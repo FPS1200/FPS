@@ -3,12 +3,22 @@ $(document).ready(function () {
         e.preventDefault();
         const search = $("#input-search").val();
         const cards = $(".card");
-        cards.each(function () {
-            const elemento = $(this);
+        if (search===""){
+            cards.fadeIn();
+        } else{
+            cards.each(function () {
+                cards.fadeOut();
+                cards.fadeIn();
+        }
+
+            const elemento = $(this);.toLowerCase();
+            const textoElemento = elemento.texto()
             if (!elemento.text().includes(search)) {
                 elemento.fadeOut();
             }
+        }); 
         });
+
     })
 })
 
